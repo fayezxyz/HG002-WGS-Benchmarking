@@ -25,3 +25,6 @@ evaluation_bed: "/path/to/HG002_evaluation.bed"
 
 deepvariant_shards: 8
 benchmark_threads: 4
+
+# Existing DeepVariant VCFs and indexes directory
+deepvariant_results: "/path/to/project/snakemake_dv/results/deepvariant"
