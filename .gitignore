@@ -1,0 +1,83 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.fastq.gz.*
+
+# Variant outputs and indexes
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.csi
+*.bcf
+*.bcf.csi
+*.g.vcf.gz
+*.g.vcf.gz.tbi
+
+# Reference genomes and indexes
+*.fasta
+*.fasta.fai
+*.fa
+*.fa.fai
+*.fai
+*.dict
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# AI annotation cache and downloaded databases
+ai_missense/cache/
+*.tar.gz
+
+# Containers and environments
+*.sif
+*.img
+.conda/
+conda-meta/
+
+# Temporary files and logs
+*.tmp
+*.log
+logs/
+.snakemake/
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+*.pem
+id_rsa
+id_ed25519
+
+# Generated project results
+results/
+logs/
+ai_missense/input/
+ai_missense/results/
+ai_missense/logs/
+ai_missense/cache/
+ai_missense/plugins/
+.snakemake/
+
+# Local configuration containing machine-specific paths
+config.yaml
+
+# Large downloaded or generated files
+*.tar
+*.gz
+*.zip
+*.vcf
+*.bcf
+*.bam
+*.cram
+*.fastq
+*.fq
+*.sif

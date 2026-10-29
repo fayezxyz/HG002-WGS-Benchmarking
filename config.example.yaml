@@ -1,0 +1,27 @@
+# Example configuration for HG002 WGS benchmarking.
+# Replace paths with locations available on your own system.
+
+project_root: "/path/to/project"
+
+samples:
+  - SRR37356337
+  - SRR37356338
+  - SRR37356339
+
+aligner: "bwa_mem2"
+
+bams:
+  SRR37356337: "/path/to/SRR37356337.bwa_mem2.bqsr.bam"
+  SRR37356338: "/path/to/SRR37356338.bwa_mem2.bqsr.bam"
+  SRR37356339: "/path/to/SRR37356339.bwa_mem2.bqsr.bam"
+
+reference: "/path/to/Homo_sapiens_assembly38.fasta"
+
+deepvariant_container: "/path/to/deepvariant_latest.sif"
+hap_container: "/path/to/hap.py_0.3.14.sif"
+
+truth_vcf: "/path/to/HG002_truth.vcf.gz"
+evaluation_bed: "/path/to/HG002_evaluation.bed"
+
+deepvariant_shards: 8
+benchmark_threads: 4
