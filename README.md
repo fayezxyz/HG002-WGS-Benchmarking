@@ -107,12 +107,6 @@ During development, the `vcfeval` run failed because RTG Tools was not available
 
 Only report metrics from completed runs whose output files and logs have been checked. Record the reference genome, truth set, evaluation regions, tool versions, and comparison engine alongside the results.
 
-## Limitations
-
-- The repository does not contain the raw sequencing data, BAM/VCF files, reference genome, benchmark resources, or container images.
-- Input paths and container mounts must be adapted to the target computing environment.
-- `vcfeval` requires a compatible RTG Tools and Java setup.
-- End-to-end reproducibility should be verified on the target system before claiming that the workflow has been fully validated.
 
 ## Citation and attribution
 
